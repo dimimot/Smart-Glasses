@@ -23,7 +23,7 @@
 /coverage/
 
 # ── Android: machine-specific ─────────────────────────────────
-# Περιέχει το local path του Android SDK — διαφέρει ανά μηχανή
+# Περιέχει το local path του Android SDK 
 local.properties
 /android/.gradle/
 .gradle/
@@ -36,14 +36,12 @@ local.properties
 # Auto-generated Android plugin registrant
 GeneratedPluginRegistrant.java
 
-# ── Android / iOS Signing keys (ΠΟΤΕ δεν ανεβαίνουν) ──────────
-# Αν δεις αυτά τα αρχεία, ΜΗΝ τα κάνεις commit — περιέχουν passwords
+# ── Android / iOS Signing keys ( ──────────
 *.jks
 key.properties
 
 # ── iOS CocoaPods ──────────────────────────────────────────────
 # Το Podfile.lock regenerates με `pod install`
-# Σημ: Αν κάνεις distribute app, ίσως θέλεις να το κρατήσεις
 Podfile.lock
 
 # ── Symbolication / Obfuscation ────────────────────────────────
