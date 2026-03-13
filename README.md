@@ -36,4 +36,4 @@ Smart_Glasses/
 
 **Version:** 2.0
 **Python Version:** 3.9
-**License:** MIT
+**License:** GNU GENERAL PUBLIC LICENSE
