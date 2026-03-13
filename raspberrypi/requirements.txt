@@ -1,0 +1,6 @@
+# Raspberry Pi - Image Sender Script
+# Python 3.9+
+
+# HTTP Client
+requests==2.32.3
+

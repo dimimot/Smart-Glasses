@@ -1,0 +1,67 @@
+# ==============================================================
+# Flutter .gitignore — tts_cam_test2 (Smart Glasses App)
+# ==============================================================
+
+# ── macOS ──────────────────────────────────────────────────────
+.DS_Store
+
+# ── IDE ────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# ── Flutter/Dart/Pub: generated files (auto-regenerated) ──────
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# ── Android: machine-specific ─────────────────────────────────
+# Περιέχει το local path του Android SDK — διαφέρει ανά μηχανή
+local.properties
+/android/.gradle/
+.gradle/
+
+# Android build artifacts
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Auto-generated Android plugin registrant
+GeneratedPluginRegistrant.java
+
+# ── Android / iOS Signing keys (ΠΟΤΕ δεν ανεβαίνουν) ──────────
+# Αν δεις αυτά τα αρχεία, ΜΗΝ τα κάνεις commit — περιέχουν passwords
+*.jks
+key.properties
+
+# ── iOS CocoaPods ──────────────────────────────────────────────
+# Το Podfile.lock regenerates με `pod install`
+# Σημ: Αν κάνεις distribute app, ίσως θέλεις να το κρατήσεις
+Podfile.lock
+
+# ── Symbolication / Obfuscation ────────────────────────────────
+app.*.symbols
+app.*.map.json
+
+# ── Build cache ────────────────────────────────────────────────
+*.cache.dill.track.dill
+last_build_run.json
+
+# ── Misc ───────────────────────────────────────────────────────
+*.class
+*.log
+*.swp
+.history
+.buildlog/
+.build/
+.atom/
+.svn/
+.swiftpm/
+migrate_working_dir/
