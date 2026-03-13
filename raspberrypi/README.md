@@ -27,6 +27,7 @@ pip install -r requirements.txt
 python send_images.py
 
 ##  Project Structure
+```
 
 ```
 raspberrypi/
