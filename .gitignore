@@ -1,9 +1,3 @@
-# ==============================================================
-# ROOT .gitignore — Smart Glasses VLM Project
-# Covers: Python Server (v2/), Flutter App, Raspberry Pi scripts
-# ==============================================================
-
-
 # ── macOS system files ─────────────────────────────────────────
 .DS_Store
 .AppleDouble
