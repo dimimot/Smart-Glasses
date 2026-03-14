@@ -11,7 +11,7 @@ from v2.app.utils.server.cors_web import enable_cors
 
 app = FastAPI(
     title="Smart Glasses Gateway",
-    description="Modular Gateway for Multi-Agent Image Analysis",
+    description="Modular Gateway for Image Description",
     version="2.0.0"
 )
 
