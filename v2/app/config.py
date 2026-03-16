@@ -33,7 +33,7 @@ LM_STUDIO_BASE_URL = os.environ.get("LM_STUDIO_BASE_URL", "http://127.0.0.1:9094
 LM_STUDIO_MODEL_NAME = os.environ.get("LM_STUDIO_MODEL_NAME", "Qwen3-VL-8B-Instruct-MLX-4bit")
 
 TIME_LOGS = os.environ.get("TIME_LOGS", "ON").strip().upper() == "ON"
-YOLO_ENABLED = os.environ.get("YOLO_ENABLED", "ON").strip().upper() == "ON"
+YOLO_ENABLED = os.environ.get("YOLO_ENABLED", "OFF").strip().upper() == "ON"
 
 __all__ = [
     "PROJECT_ROOT",
