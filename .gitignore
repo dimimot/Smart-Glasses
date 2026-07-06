@@ -33,8 +33,8 @@ dist/
 *.egg
 
 
-# ── Environment variables (ΠΟΤΕ δεν ανεβαίνει) ────────────────
-# Το .env περιέχει secrets. Το .env.example ανεβαίνει κανονικά.
+# ── Environment variables ────────────────
+# Το .env περιέχει secrets. Το .env.example είναι ανεβασμένο
 .env
 .env.local
 .env.production
@@ -52,7 +52,7 @@ v2/scripts/runs/
 *.safetensors
 *.gguf
 v2/app/models/weights/
-# Κράτα τον κενό φάκελο με .gitkeep ώστε να υπάρχει το directory
+# Να κρατηθεί ο κενός φάκελος με .gitkeep ώστε να υπάρχει το directory
 !v2/app/models/weights/.gitkeep
 
 
@@ -74,15 +74,14 @@ Data/logs/*
 !Data/logs/.gitkeep
 
 # Test/sample εικόνες (μεγάλα αρχεία)
-# Αφαίρεσε αυτή τη γραμμή αν θέλεις να ανεβάσεις sample images
 Data/Input_image/
 
-# SSL certificates (ΠΟΤΕ δεν ανεβαίνουν — είναι secrets)
+# SSL certificates (είναι secrets)
 Data/certs/*.pem
 Data/certs/*.key
 Data/certs/*.crt
 Data/certs/*.p12
-# Το README.md μέσα στα certs ανεβαίνει (οδηγίες δημιουργίας)
+# Το README.md μέσα στα certs (οδηγίες δημιουργίας)
 !Data/certs/README.md
 
 
