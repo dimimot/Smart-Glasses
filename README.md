@@ -33,7 +33,6 @@ Smart_Glasses/
 ├── requirements.txt             ← Server dependencies
 └── README.md                    ← This file (Root guide)
 ```
-This is the raw, experimental code for my academic thesis (Proof of Concept). Refactoring and cleanup are in progress.
 
 **Version:** 2.0
 **Python Version:** 3.9
